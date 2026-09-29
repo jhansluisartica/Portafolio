@@ -1,0 +1,25 @@
+PORTAFOLIO JHANS LUIS ARTICA — GUÍA RÁPIDA PARA GITHUB
+
+1. Entra a GitHub y crea un repositorio nuevo.
+2. Nombre recomendado: portafolio-jhans-luis-artica
+3. Si vas a subir este proyecto desde tu computadora, puedes dejar el repositorio vacío para evitar conflictos.
+4. Descarga y descomprime el ZIP del portafolio.
+5. Abre la carpeta Portafolio_Jhans_Luis_Artica_GitHub.
+6. Sube TODO lo que está dentro de esa carpeta al repositorio.
+7. Es importante que index.html quede directamente en la raíz del repositorio.
+8. Para publicarlo: Settings > Pages > Deploy from a branch > main > /(root) > Save.
+
+SI USAS GIT:
+
+cd "RUTA\Portafolio_Jhans_Luis_Artica_GitHub"
+git init
+git add .
+git commit -m "Publicar portafolio profesional"
+git branch -M main
+git remote add origin https://github.com/TU-USUARIO/portafolio-jhans-luis-artica.git
+git push -u origin main
+
+IMPORTANTE:
+- Reemplaza TU-USUARIO por tu usuario real de GitHub.
+- No publiques contraseñas, claves API ni información privada.
+- El archivo index.html debe quedar en la raíz.
